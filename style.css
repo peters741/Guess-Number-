@@ -175,7 +175,7 @@ div .guess{
     div .guess{
         position: absolute;
         top: 10px;
-         
+        
         background-color: #fff;
         color: black;
         padding-left: 20px;
@@ -185,4 +185,12 @@ div .guess{
         font-weight: 200;
         
     } 
+    .div-q{
+        position: relative;
+        height: 80px;
+        /* margin-top: 90px ; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
