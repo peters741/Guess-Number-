@@ -167,3 +167,22 @@ div .guess{
     
 
 }
+@media(max-width:295px)
+{
+    .h1{
+        font-size: 22px;
+    }
+    div .guess{
+        position: absolute;
+        top: 10px;
+         
+        background-color: #fff;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+        font-size: 35px;
+        font-weight: 200;
+        
+    } 
+}
