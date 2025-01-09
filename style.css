@@ -13,17 +13,23 @@ header{
     height: 8rem;
     /* align-items: center; */
     justify-content: space-around;
-    border-bottom: 3px solid white;
+    /* border-bottom: 3px solid white; */
     padding: 10px;
 }   
 .between{
     font-size: 20px;
 }
 .div-q{
-    /* position: relative; */
-    margin-top: 90px ;
+    position: relative;
+    /* margin-top: 90px ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 div .guess{
+    position: absolute;
+    top: 10px;
+     
     background-color: #fff;
     color: black;
     padding-left: 20px;
@@ -31,8 +37,7 @@ div .guess{
 
     font-size: 50px;
     font-weight: 300;
-    position: absolute;
-    left: 40%;
+    
 } 
 .again{
     width: 5rem;
@@ -70,6 +75,95 @@ div .guess{
      margin-right: 15rem;
      padding: 20px;
 }
-.start{
+@media(max-width:450px){
+    header{
+        width: 96%;
+        display: flex;   
+        /* flex-wrap: wrap; */
+        /* flex-direction: row ;    */
+        height: 5rem;
+        /* align-items: center; */
+        justify-content: space-around;
+        /* border-bottom: 3px solid white; */
+        padding: 10px;
+    }   
+    .h1{
+        font-size: 50px;
+        padding: 20px;
+        
+ }
     
+.between{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.again{
+    width: 4rem;
+    height: 2rem;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 40px;
+}
+.main
+{   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 20rem;
+    margin-top: 5rem;
+    padding-left: 20rem;
+    /* border: 10px solid red; */
+}
+}
+@media(max-width:401px){    
+    .h1{
+        font-size: 38px;
+        padding: 20px;
+        
+ }
+ 
+.again{
+    width: 3rem;
+    height: 2rem;
+    font-size: 15px;
+    padding: 3px; 
+    border-radius: 20px;
+}
+.between{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+    
+
+}
+@media(max-width:330px){    
+    .h1{
+        font-size: 30px;
+        padding: 20px;
+        
+ }
+ 
+.again{
+    width: 3rem;
+    height: 2rem;
+    font-size: 15px;
+    padding: 3px; 
+    border-radius: 20px;
+}
+.between{
+    font-size: 13px;
+    /* margin-bottom: 20px; */
+}
+.message{
+    font-size: 17px;
+    width: 100px;
+}
+.highscore{
+    font-size: 17px;
+    width: 130px;
+}
+
+    
+
 }
