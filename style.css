@@ -21,6 +21,7 @@ header{
 }
 .div-q{
     position: relative;
+    height: 80px;
     /* margin-top: 90px ; */
     display: flex;
     align-items: center;
