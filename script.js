@@ -1,6 +1,6 @@
 
 let score  = 20;
-let highscore = 0;
+let highscore = 0; 
 
 document.querySelector(".check").addEventListener(`click`,function(){
     // console.log("user is clicked");
