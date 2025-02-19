@@ -1,7 +1,6 @@
-// console.log(document.querySelector(".start").textContent)
+
 let score  = 20;
 let highscore = 0;
-//  const uName=prompt("Enter Your NAme");
 
 document.querySelector(".check").addEventListener(`click`,function(){
     // console.log("user is clicked");
